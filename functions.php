@@ -6,6 +6,8 @@
  * @since 1.0.0
  */
 
+require_once 'core/updater.php';
+
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
