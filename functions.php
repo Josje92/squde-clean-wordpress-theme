@@ -7,6 +7,7 @@
  */
 
 require_once 'updater.php';
+require_once 'api.php';
 
 /**
  * Sets up theme defaults and registers support for various WordPress features.
