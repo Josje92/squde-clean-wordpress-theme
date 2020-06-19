@@ -1,0 +1,13 @@
+{
+    "name": "joshua/squde-clean-wordpress-theme",
+    "require-dev": {
+        "automattic/woocommerce": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Joshua Weidema",
+            "email": "joshua@squde.nl"
+        }
+    ],
+    "require": {}
+}

@@ -6,8 +6,9 @@
  * @since 1.0.0
  */
 
-require_once 'updater.php';
+require_once 'admin/admin.php';
 require_once 'api.php';
+require_once 'updater.php';
 require_once 'woocommerce/api.php';
 
 /**
