@@ -49,6 +49,8 @@ function squde_woocommerce_api_products_request(WP_REST_Request $request) {
 
     if ($singleResult) {
         $args['include'] = [$request->get_param('id')];
+    } else {
+        $args = $_GET;
     }
 
     $result = $woocommerce->get('products', $args);
